@@ -3,6 +3,7 @@
 Propel is an open-source Object-Relational Mapping (ORM) for PHP5.
 
 [![Build Status](https://secure.travis-ci.org/propelorm/Propel.png?branch=master)](http://travis-ci.org/propelorm/Propel)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fibr%2FPropel.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fibr%2FPropel?ref=badge_shield)
 
 ## A quick tour of the features ##
 
@@ -22,3 +23,6 @@ Read the [Propel documentation](http://www.propelorm.org/).
 ## License ##
 
 Propel is an open-source project released under the MIT license. See the `LICENSE` file for more information.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fibr%2FPropel.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fibr%2FPropel?ref=badge_large)
