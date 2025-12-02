@@ -138,7 +138,6 @@ abstract class XMLElement
 
             return $vi;
         } else {
-		require_once dirname(__FILE__) . '/VendorInfo.php';
             $vi = new VendorInfo();
             $vi->loadFromXML($data);
 
@@ -157,7 +156,6 @@ abstract class XMLElement
             return $this->vendorInfos[$type];
         } else {
             // return an empty object
-		require_once dirname(__FILE__) . '/VendorInfo.php';
             return new VendorInfo($type);
         }
     }
@@ -217,3 +215,4 @@ abstract class XMLElement
         return $this->toString();
     }
 }
+require_once dirname(__FILE__) . '/VendorInfo.php';
